@@ -10,7 +10,7 @@ img{
 }
 /* classe per l'header */
 header{
-    min-height: 100px;
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -39,6 +39,13 @@ header{
     padding: 0.2rem 1.8rem;
     font-size: 1rem;
     font-weight: bold;
+    margin-right: 1rem;
+}
+.tasto select{
+    padding: 0.2rem 1.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 1rem;
 }
 /* classe per il wrapper del main che conterrá la griglia */
 .wrapper{
@@ -57,8 +64,8 @@ header{
     width: 600px;
     margin: 0 auto;
 }
-/* classe per le celle della griglia */
-.cell{
+/* classe per le celle della griglia 10x10*/
+.cell-10{
     width: calc(100% / 10);
     aspect-ratio: 1;
     border: 1px solid black;
@@ -68,6 +75,29 @@ header{
     color: black;
 
 }
+/* classe per le celle della griglia 10x10*/
+.cell-9{
+    width: calc(100% / 9);
+    aspect-ratio: 1;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+/* classe per le celle della griglia 10x10*/
+.cell-7{
+    width: calc(100% / 7);
+    aspect-ratio: 1;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
 /* classe del footer */
 footer{
     padding: 1rem;
