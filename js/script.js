@@ -12,6 +12,8 @@ buttonPlay.addEventListener("click", function() {
     if (diffLiv === 1) {
         //prendo l'elemento con la classe grid per poter aggiungere le celle
         const gridElem = document.querySelector(".grid");
+        //svuoto la griglia
+        gridElem.innerHTML = "";
 
         //ciclo per creare 100 celle
         for (let i = 0; i < 100; i++) {
@@ -31,7 +33,8 @@ buttonPlay.addEventListener("click", function() {
         if(diffLiv === 2) {
         //prendo l'elemento con la classe grid per poter aggiungere le celle
         const gridElem = document.querySelector(".grid");
-
+        //svuoto la griglia
+        gridElem.innerHTML = "";
         //ciclo per creare 81 celle
         for (let i = 0; i < 81; i++) {
             //il numero corrente é l'indice piú uno cosi da scrivere i numeri da 1 a 81
@@ -50,7 +53,8 @@ buttonPlay.addEventListener("click", function() {
         if(diffLiv === 3){
         //prendo l'elemento con la classe grid per poter aggiungere le celle
         const gridElem = document.querySelector(".grid");
-
+        //svuoto la griglia
+        gridElem.innerHTML = "";
         //ciclo per creare 49 celle
         for (let i = 0; i < 49; i++) {
             //il numero corrente é l'indice piú uno cosi da scrivere i numeri da 1 a 49
